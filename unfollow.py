@@ -7,7 +7,6 @@ driver = webdriver.Firefox(executable_path="C:\\Executable Programs\\geckodriver
 
 username = login.username
 password = login.password
-uprofile = login.username
 
 igurl = "https://www.instagram.com/"
 
@@ -72,6 +71,6 @@ def unfollow_users(profile):
 if __name__ == "__main__":
     login_ig()
     while True:
-        unfollow_users(uprofile)
+        unfollow_users(username)
         print("Waiting 180 seconds...")
         sleep(180)
