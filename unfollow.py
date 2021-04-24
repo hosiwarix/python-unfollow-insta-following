@@ -7,7 +7,7 @@ driver = webdriver.Firefox(executable_path="C:\\Executable Programs\\geckodriver
 
 username = login.username
 password = login.password
-uprofile = login.profile
+uprofile = login.username
 
 igurl = "https://www.instagram.com/"
 
